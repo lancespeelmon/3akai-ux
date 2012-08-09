@@ -261,7 +261,7 @@ define(function(){
          * display property of the email field in the defaultConfig
          * below to false
         */
-        emailLocation: 'profile',
+        emailLocation: 'accountpreferences',
 
         Profile: {
             /*
@@ -316,7 +316,7 @@ define(function(){
                                 "label": "__MSG__PROFILE_BASIC_EMAIL_LABEL__",
                                 "errorMessage": "__MSG__PROFILE_BASIC_EMAIL_ERROR__",
                                 "required": true,
-                                "display": true,
+                                "display": false,
                                 "validation": "email"
                             },
                             "status": {
@@ -1601,7 +1601,7 @@ define(function(){
         defaultLanguageBundle: "/dev/bundle/en_US.properties",
 
         enableCategories: true,
-        emailVerifyEnabled: false,
+        emailVerifyEnabled: true,
 
         // The data schema version. Version 2 as of the 1.2 release in March 2012
         schemaVersion: '2',
